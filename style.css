@@ -1,0 +1,82 @@
+
+*{
+    padding: 0px;
+    margin:0px;
+    
+    font-family: sans-serif;
+    
+}
+
+body{
+    background-color:hsl(218, 23%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {  
+    margin-top: 150px;
+    text-align: center;
+    background-color: hsl(217, 19%, 24%);
+    height: 400px;
+    width: 600px;
+    border-radius: 20px;
+}
+.container p{
+    margin-top: 40px;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-weight:700;
+}
+.container h2{
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    font-weight: 800;
+    overflow-wrap: break-word;
+    padding: 10px;
+}
+.container img{
+    margin-top: 60px;
+}
+.dice button{
+    width: 60px;
+    height: 60px;
+    background-color: hsl(150, 100%, 66%);
+    margin-top: -60px;
+    border-style: solid;
+    border-color: hsl(150, 100%, 66%);
+    border-radius:50px;
+    
+}
+.dice img{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.dice button:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: 0 0 12px hsl(150, 100%, 66%),0 0 20px hsl(150, 100%, 66%);
+}
+.dice button:not(:hover){
+    transition: 0.5s;
+}
+@media only screen and (max-width:400px){
+    .container{
+        width: 350px;
+        height: 500px;
+        margin-left: 5px;
+        margin-top: 100px;
+    }
+    .container img{
+        width: 230px;
+
+    }
+    .container h2{
+        font-size: 18px;
+    }
+    
+}
