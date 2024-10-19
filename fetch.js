@@ -1,5 +1,5 @@
 function fetchRandomQuote() {
-    const apiUrl = 'https://api.quotable.io/random';
+    const apiUrl = 'https://api.api-ninjas.com/v1/quotes';
 
     fetch(apiUrl)
         .then(response => response.json())
